@@ -1,0 +1,6 @@
+python
+streamlit
+pytest
+pip install -r requirements.txt
+# streamlit
+# pytest

@@ -1,0 +1,7 @@
+site_name: Juridisk AI System
+nav:
+  - Startsida: index.md
+  - Moduler: modules.md
+  - Installation & Deploy: deploy.md
+theme:
+  name: material

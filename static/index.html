@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Shortcut Demo</title>
+</head>
+<body>
+    <h1>Press Ctrl+; (Windows/Linux) or Cmd+; (macOS) to trigger the shortcut</h1>
+    
+    <script type="module">
+        import KeyboardShortcutHandler from './keyboard-shortcuts.js';
+        
+        const shortcutHandler = new KeyboardShortcutHandler({
+            onShortcutTriggered: () => {
+                alert('Shortcut triggered!');
+            }
+        });
+    </script>
+</body>
+</html>
+
